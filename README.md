@@ -7,4 +7,7 @@ This project simulates a banking application. In this application, a user is abl
 This project is a full stack application where a user can submit a reimbursment for a particular topic (food, travel, lodging, etc) with the amount they wish to reimburse for. A user can also view their pass reimbursments and check whether it has been approved or not. A different type of user (a manager) can log in a view the pending reimbursment requests and can either approve it or deny it.
 
 # Project 2: Movie Fanatics 
-This project is a full application that displays movies and actors alike. Users are able to search for a particular movie or actor. A user is able to create an account in order to access additional features such as rating a movie, reviewing a movie, or rating other members (in terms of their reviews on movies) in the application.
+This project is a full stack application that displays movies and actors alike. Users are able to search for a particular movie or actor. A user is able to create an account in order to access additional features such as rating a movie, reviewing a movie, or rating other members (in terms of their reviews on movies) in the application.
+
+# Project 3: Caliber 
+This project is a full stack application that is a peformance management suite to collect and anaylze evaluations of Revature Trainers. Trainers can input grades and feedback for each of their trainees.
