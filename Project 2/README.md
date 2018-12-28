@@ -5,6 +5,7 @@ This project is a full stack application that displays movies and actors alike. 
 * Focused on the view for the Actor feature and services for the Actor compontents.
 * Coded the front end using TypeScript, CSS, and HMTL.
 * Leveraged Angular to build the front end.
+* Implementing AJAX to manage HTTP requests.
 
 ## Technologies
-TypeScript, HTML, CSS, Angular
+TypeScript, HTML, CSS, Angular, BootStrap, AJAX
