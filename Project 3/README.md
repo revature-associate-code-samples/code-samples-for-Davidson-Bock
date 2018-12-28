@@ -1,5 +1,5 @@
 # Project 3: Caliber
-This project is a full stack application that is a peformance management suite to collect and anaylze evaluations of Revature Trainers. Trainers can input grades and feedback for each of their trainees.
+Caliber is a performance management suite to collect and analyze evaluations of Revature trainees. Trainers can input grades and feedback for each of their trainees. The quality department can input their evaluations on the batch of trainees. Trainers and quality personnel can comment on a trainee's profile. The Caliber suite also provides a variety of reports on different levels of granularity using visual dashboards and tabular data. Users can generate individual and batch PDF reports to distribute to clients, trainees, and other stakeholders.
 
 ## Roles/Responsibilites
 * Focused on the toolbar view on the front end.
