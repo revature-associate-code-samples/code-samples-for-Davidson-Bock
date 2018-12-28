@@ -1,5 +1,5 @@
-# Project 2: Reimbursment
-This project is a full stack application where a user can submit a reimbursment for a particular topic (food, travel, lodging, etc) with the amount they wish to reimburse for. A user can also view their pass reimbursments and check whether it has been approved or not. A different type of user (a manager) can log in a view the pending reimbursment requests and can either approve it or deny it.
+# Project 1: Reimbursment
+The Expense Reimbursement System (ERS) will manage the process of reimbursing employees for expenses incurred while on company time. All employees in the company can login and submit requests for reimbursement and view their past tickets and pending requests. Finance managers can log in and view all reimbursement requests and past history for all employees in the company. Finance managers are authorized to approve and deny requests for expense reimbursement.
 
 ## Roles/Responsibilites
 * Coded the back end of the application in Java 8.
