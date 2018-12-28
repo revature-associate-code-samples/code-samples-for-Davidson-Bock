@@ -10,4 +10,4 @@ This project is a full stack application where a user can submit a reimbursment 
 * Used Tomcat to run the application on a server.
 
 ## Technologies
-Java 8, SQL, JavaScript, HTML, CSS, JDBC, Maven, Tomcat, servlets
+Java 8, SQL, JavaScript, HTML, CSS, JDBC, Maven, Tomcat, servlets, XML
