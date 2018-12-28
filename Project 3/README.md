@@ -5,7 +5,7 @@ This project is a full stack application that is a peformance management suite t
 * Focused on the toolbar view on the front end.
 * Coded the front end using TypeScript and HTML.
 * Leveraged Angular to build the front end.
-* Focused on the toolbar service on the back end.
+* Focused on the toolbar services on the back end.
 * Coded the back end in Java 8.
 * Leveraged Spring to build the back end.
 
