@@ -9,6 +9,7 @@ import org.springframework.stereotype.Repository;
 
 import com.revature.caliber.beans.BatchEntity;
 
+//@Repository marks class as a DAO
 @Repository(value="batchRepository")
 
 public interface BatchRepository extends JpaRepository<BatchEntity, Integer> {
