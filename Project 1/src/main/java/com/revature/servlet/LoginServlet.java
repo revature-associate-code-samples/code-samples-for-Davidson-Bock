@@ -51,17 +51,14 @@ public class LoginServlet extends HttpServlet{
 			//add a button to go back to login screen?
 		}
 		else if(roleId == 1){
-			//successful log in 
-			//Add user to session
+
 			HttpSession session = req.getSession();
-			//will return current session if one exists
-			//creates new session and returns it if none exists
+
 			session.setAttribute("user", user);
-			//logger.trace("Adding USER TO SESSION: "  + session.getId());
+
 			String p = home.process(req, resp);
 			resp.sendRedirect("partials/employee-home.html");
-			//render home view
-			//redirect to home servlet
+	
 		}
 		else {
 			HttpSession session = req.getSession();
