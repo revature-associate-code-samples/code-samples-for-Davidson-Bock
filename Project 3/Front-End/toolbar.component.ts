@@ -9,13 +9,15 @@ import { Batch } from 'src/app/Batch/type/batch';
 })
 export class ToolbarComponent implements OnInit {
   batches: Batch[];
-  weeks = [1,2,3,4,5,6];
+  weeks = [];
   selectedWeek: number;
+  selectedBatch: Batch;
+  selectedBatches: Batch[];
 
   constructor() { }
 
   ngOnInit() {   
-    this.selectedWeek=6;
+    this.selectedWeek=1;
   }
 
   showActiveWeek(week: number) {
@@ -26,14 +28,26 @@ export class ToolbarComponent implements OnInit {
 
   selectWeek(event: number) {
     this.selectedWeek = event;
+    this.auditService.selectedWeek = event;
   }
 
   addWeek() {
     var last = this.weeks[this.weeks.length-1];
     this.weeks.push(last+1);
     this.selectedWeek=last+1;
+    this.selectedBatch.weeks++;
+    console.log(this.selectedBatch.batchId);
+    this.auditService.putBatch(this.selectedBatch).subscribe(result => {
+      console.log('updated');
+    });
   }
-
+  
+  getWeeks() {
+    this.weeks = [];
+    for(var i = 0; i<this.selectedBatch.weeks; i++){
+      this.weeks.push(i+1);
+    }
+  }
 
 
 }
