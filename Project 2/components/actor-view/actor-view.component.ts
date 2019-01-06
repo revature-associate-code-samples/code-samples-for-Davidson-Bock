@@ -40,25 +40,6 @@ export class ActorViewComponent implements OnInit {
     this.getMovies();
 
   }
-  
-  getMovies() {	
-    this.movieService.getMoviesByActor(this.id).subscribe(	
-      (movie) =>  {	
-                    this.tempActMovie.push(movie);	
-                    this.total_pages = this.tempActMovie[0].total_pages;	
-                    this.current_page = 1;	
-                    let nums;	
-                    if (this.tempActMovie[0].total_results < 6) {	
-                      nums = this.tempActMovie[0].total_results;	
-                    } else {	
-                      nums = 6;	
-                    }	
-                    for (let i = 0; i < nums; i++) {	
-                      this.actMovieArray.push({'title': this.tempActMovie[0].results[i].original_title,	
-                                            'Poster' : this.movieService.formatImage(this.tempActMovie[0].results[i].poster_path),	
-                                            'id' : this.tempActMovie[0].results[i].id  });	
-                    }	
-                  });
 
  
 }
