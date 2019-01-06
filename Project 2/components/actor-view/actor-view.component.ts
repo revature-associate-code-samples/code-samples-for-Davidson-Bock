@@ -36,8 +36,6 @@ export class ActorViewComponent implements OnInit {
         this.actor = actor;
         this.actor.profile_path = this.actorService.formatActorImage(this.actor.profile_path);
       });
-    
-    this.getMovies();
 
   }
 
