@@ -18,10 +18,6 @@ export class ActorViewComponent implements OnInit {
   public age: number;
   public actor: Actor;
 
-  public actMovieArray = [];
-  public total_pages: number;
-  public current_page: number;
-  public tempActMovie = [];
 
   constructor(
     public route: ActivatedRoute,
