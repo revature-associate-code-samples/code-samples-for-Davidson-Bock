@@ -34,8 +34,6 @@ export class ToolbarComponent implements OnInit {
     this.selectedWeek=last+1;
   }
 
-  getWeeks() {
-    console.log(this.batches[0].weeks);
-  }
+
 
 }
